@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 本地环境与密钥
+.env
+.env.*
+
+# 数据与模型产物：目录保留，文件不提交
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/
+*.joblib
+*.pkl
+
+# 工具缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
